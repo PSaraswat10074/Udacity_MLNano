@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a19632a7-5a89-4730-ae6c-693796920bdf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LearningCurve.py</StartupFile>
+    <StartupFile>FaceRecog_EigenFaces.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="explore_enron_data.py" />
+    <Compile Include="FaceRecog_EigenFaces.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LearnerHighBias.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LearningCurve.py">
       <SubType>Code</SubType>
     </Compile>
